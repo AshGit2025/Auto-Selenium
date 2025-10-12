@@ -49,10 +49,13 @@ public class InputFormPage extends Base {
 	
 		InputFormPage inputform = new InputFormPage();
 		inputform.browserInitialisation();
+		
+		
 	//	inputform.enterMessageField();
+		
 	//	inputform.enterValueAandB(); // ASSIGNMENT 1
 		
-		inputform.printHello(); // ASSIGNMENT 2
+	    inputform.printHello(); // ASSIGNMENT 2
 		
 
 	}

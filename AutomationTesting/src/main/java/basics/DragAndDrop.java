@@ -13,9 +13,9 @@ public class DragAndDrop extends Base {
 		
 		Actions actions = new Actions(driver);
 		actions.moveToElement(drag).click();
-				
 		actions.doubleClick(drag).perform(); // if we have to double-click the element and drag doubleClick() method to be used
-	   WebElement target = driver.findElement(By.id("mydropzone"));
+	  
+		WebElement target = driver.findElement(By.id("mydropzone"));
 	   actions.dragAndDrop(drag, target).build().perform(); //buid & perform method used to do sequence of actions
 	
 	}

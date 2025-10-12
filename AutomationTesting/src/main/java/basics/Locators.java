@@ -29,6 +29,8 @@ public class Locators extends Base{
 		WebElement messageField = driver.findElement(By.partialLinkText("Checkbox"));
 	}
 	
+	//--------------------------------------------------------- CSS Selector
+	
 	public void cssSelectorLocators()
 	{
 		WebElement messageField = driver.findElement(By.cssSelector("input#single-input-field"));
@@ -36,7 +38,7 @@ public class Locators extends Base{
 	
 	public void CssLocators() // tag and class -->	tag.class
 	{
-		WebElement messageField = driver.findElement(By.cssSelector("input.	form-control"));
+		WebElement messageField = driver.findElement(By.cssSelector("input.form-control"));
 	}
 	
 	public void cssLocators1() // tag and attribute ---> tag[attributetype=attributevalue]
@@ -48,6 +50,9 @@ public class Locators extends Base{
 	{
 		WebElement messageField = driver.findElement(By.cssSelector("input.form-control[type=text]"));
 	}
+	
+	//----------------------------------------------------------------- XPath
+	
 	
 	public void XpathLocators() //By Xpath --> Absolute
 	{
@@ -102,7 +107,7 @@ public class Locators extends Base{
 	//Index Locator
 	public void IndexXpathLocaor() //By Index  -->  Syntax: (//tagname[@attributetype='attribute value1'])[inxexvalue] 
 	{
-		WebElement messageField = driver.findElement(By.xpath("(//input[@type= 'text'])[2]"));
+		WebElement messageField = driver.findElement(By.xpath("(//input[@type='text'])[2]"));
 	}
 	
 	

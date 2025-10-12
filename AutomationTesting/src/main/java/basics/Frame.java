@@ -19,8 +19,7 @@ public class Frame {
 		
 		WebElement JMeter = driver.findElement(By.xpath("//img[@src='Jmeter720.png']"));
 		JMeter.click();
-		driver.navigate().back();
-		
+			
 		
 	}
 
