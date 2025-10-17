@@ -14,6 +14,7 @@ public class Frame {
 		driver = new ChromeDriver();
 		driver.navigate().to("https://demo.guru99.com/test/guru99home/");
 		driver.manage().window().maximize();
+		
 		WebElement JMeterImage = driver.findElement(By.id("a077aa5e"));
 		driver.switchTo().frame(JMeterImage);
 		
